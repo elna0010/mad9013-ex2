@@ -1,0 +1,60 @@
+/*-- 1--*/
+body {
+  background-color: #fdf6e3;
+}
+/*-- 2--*/
+header, footer {
+  font-size: 2em;
+}
+/*-- 3--*/
+nav-set ul {
+    font-family: sans-serif;
+}
+/*-- 4--*/
+#logo{
+    border: 2px solid #d04b16;
+}
+/*-- 5--*/
+.wrapper{
+    background-color:#eee8d5;
+}
+/*-- 6--*/
+#contents, #favs, #facts, #types{
+    color:#93a1a1;
+}
+/*-- 17--*/
+.wrapper .dfn {
+    background-color: #b58900;
+}
+/*-- 8--*/
+.dfn p+strong{
+    background-color: #fff;
+}
+/*-- 9--*/
+html, body, header, nav, ul, li {
+    background-color:#719e07;
+}
+/*-- 10--*/
+@rel= "external" {
+    background-color:#2694d8;
+}
+/*-- 11--*/
+ol li:first-child {
+    color:#719e47;
+}
+/*-- 12--*/
+ol li:last-child {
+    color: #2aa198;
+}
+/*-- 13--*/
+.types li:nth-child(odd) {
+    background-color: #657ba3;
+}
+/*-- 14--*/
+.types li:nth-child(even) {
+    background-color: #586e75;
+}
+/*-- 15--*/
+.types li:nth-child(3n+0) {
+    background-color: #d04b16;
+}
